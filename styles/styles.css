@@ -1,0 +1,199 @@
+#navList {
+    padding: 25px 0px 10px 0px;
+    transition: all 0.7s ease;
+}
+
+#navList.shrink {
+    background-color: lightgrey;
+    padding: 10px 0px 10px 0px;
+    color: #464646;
+    font-size: 80%;
+    transition: all 0.3s ease;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.custom-wrapper {
+    display : flex;
+    align-items : center;  
+}
+
+.custom-inner {
+    width: 100%;
+    text-align: center;
+}
+
+.card-holder {
+    display: inline-block;
+}
+
+#catchphrase > .custom-wrapper {
+    height: 300px;
+}
+
+.custom-inner h2 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#services > .custom-wrapper {
+    height: 500px;
+}
+
+#servicesContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.custom-card-one img {
+    height: 200px;
+}
+
+.custom-card-one {
+    padding: 30px;
+}
+
+.card-holder {
+    width: 80%;
+}
+
+.card-holder > .custom-wrapper .row {
+    width: 80%;
+    text-align: center;
+}
+
+.hello-there {
+    height: 150px;
+}
+
+.carousel-item .custom-wrapper {
+    height: 300px;
+}
+
+#stories {
+    background-color: burlywood;
+}
+
+.text-holder-block {
+    margin: 0px 30% 0px 30%;
+}
+
+.text-holder-block blockquote {
+    text-align: start;
+}
+
+.stories-title {
+    padding: 30px 0px 0px 0px;
+}
+
+#testimonialControls .carousel-control-prev-icon {
+    background-image: url('./../images/left2.png');
+}
+
+#testimonialControls .carousel-control-next-icon {
+    background-image: url('./../images/right2.png');
+}
+
+#contacts{
+    display: inline-flex;
+    width: 100%;
+}
+.contact-group:first-child {
+    padding: 60px 85px;
+    width: 40%;
+}
+
+.contact-group-two {
+    width: 60%;
+}
+
+#map {
+    height: 96%;
+    width: 100%;
+}
+
+.footer-filler {
+    height: 300px;
+    color: black;
+    background-color: lightgrey;
+}
+
+.social-media-icons {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media-icons div {
+    padding-top: 60px;
+    margin: 20px;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.social-media-icons a {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.footer-about-company {
+    text-align: center;
+    font-size: 110%;
+    padding: 10px 10px 0px 10px;
+    color: darkgrey;
+    background-color: lightgrey;
+    
+}
+
+hr {
+    width: 40%;
+    margin-top: 0px;
+    color: blue;
+    margin-bottom: 7px;
+
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 80%;
+    padding: 10px;
+    color: darkgrey;
+    background-color: lightgrey;
+    
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: grey;
+    font-size: 30px;
+    z-index: 3;
+}
+
+#scrollToTop .icon {
+    background-image: url("./../images/back-to-top3.png"); 
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+#scrollToTop .icon:hover {
+    cursor: pointer;
+    background-image: url("./../images/back-to-top.png");
+    height: 30px;
+    width: 30px;
+    transition: all 0.7s ease;
+}
